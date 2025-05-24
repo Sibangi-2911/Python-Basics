@@ -44,3 +44,14 @@ fruits = ["apple", "banana", "cherry"]
 colors = ["red", "yellow", "pink"]
 for fruit,color in zip(fruits,colors):
   print(f"{fruit} is {color}")
+
+for i in range(1,10):
+  if i%2==0:
+    continue
+  print(i)  # prints only odd numbers
+
+# break statement
+for i in range(1,10):
+  if i==5:
+    break
+  print(i)  # prints numbers until it reaches 5
