@@ -57,10 +57,10 @@ while not game_over:
             game_over = True
 
       if game_over:
-        play_again = input("\nPlay again? (yes/no): ").lower()
-        if play_again.startswith("y"):
-            sequence = []
-            current_round = 1
-            game_over = False
-        else:
-            print("Thanks for playing! 👋")
+            play_again = input("\nPlay again? (yes/no): ").lower()
+            if play_again.startswith("y"):
+                  sequence = []
+                  current_round = 1
+                  game_over = False
+            else:
+                  print("Thanks for playing! 👋")
